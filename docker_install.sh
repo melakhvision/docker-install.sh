@@ -1,8 +1,6 @@
-
 #!/bin/bash
 read -p " Do you want to install Docker ? : yes | no  :" dockerreply
 read -p " Do you want to install Nginx ? : yes | no  :" Nginxreply
-
 
 function dockerInstall() {
     #Update system & reboot
